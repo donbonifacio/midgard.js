@@ -1,6 +1,6 @@
 (function() {
 
-	var engine = require('../app/engine.js');
+	var engine = require('../lib/engine.js');
 
 	exports.init = function(server) {
 		server.addRoute("/static/.+", server.plugins.filehandler, { basedir: "./static" });
