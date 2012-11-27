@@ -13,7 +13,8 @@
 
 	"dependencies": {
 		"underscore": "1.4.2",
-		"bricks": ">=1.1.2"
+		"bricks": ">=1.1.2",
+    "cli-color": ">=0.2.1"
 	}
 
 }
