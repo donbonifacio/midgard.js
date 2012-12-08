@@ -1,6 +1,6 @@
 (function() {
 
-	exports.index = function(context) {
-	}
+  exports.index = function(context) {
+  }
 
 })();
