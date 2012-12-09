@@ -4,4 +4,24 @@
     <th>Param</th>
     <th>Data</th>
   </tr>
+  <tr>
+    <td>HTTP Version</td>
+    <td><%= context.request.httpVersion %></td>
+  </tr>
+  <tr>
+    <td>Method</td>
+    <td><%= context.request.method %></td>
+  </tr>
+  <tr>
+    <td>Url</td>
+    <td><%= context.rawUrl %></td>
+  </tr>
+  <tr>
+    <td>Headers</td>
+    <td><%= JSON.stringify(context.request.headers) %></td>
+  </tr>
+  <tr>
+    <td>Params</td>
+    <td><%= JSON.stringify(context.params) %></td>
+  </tr>
 </table>
