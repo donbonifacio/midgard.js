@@ -1,17 +1,17 @@
 (function() {
 
   exports.info = function(context) {
-    context.process('midgard', 'trace');
+    context.include('midgard', 'trace');
     context.render();
   }
 
   exports.trace = function(context) {
-    context.process('midgard', 'traceRequest');
-    context.renderPartial();
+    context.include('midgard', 'traceRequest');
+    context.render();
   }
 
   exports.traceRequest = function(context) {
-    context.renderPartial();
+    context.render();
   }
 
 })();
