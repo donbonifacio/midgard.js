@@ -1,4 +1,4 @@
-(function() {
+(function midgardController() {
 
   exports.layout = "midgard#master";
 
