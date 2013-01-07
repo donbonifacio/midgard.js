@@ -1,20 +1,21 @@
 {
-	"author": "Pedro Santos",
-	"name": "Midgard.js",
-	"description": "Utility web framework",
-	"version": "0.0.1",
-	"homepage": "https://github.com/donbonifacio/midgard.js",
-	"preferGlobal": "false",
+  "author": "Pedro Santos <donbonifacio@gmail.com>",
+  "name": "midgard.js",
+  "description": "Utility web framework",
+  "version": "0.0.1",
+  "homepage": "https://github.com/donbonifacio/midgard.js",
+  "preferGlobal": "false",
+  "main" : "./lib/midgard.js",
 
-	"repository": {
-		"type": "git",
-		"url": "git@github.com:donbonifacio/midgard.js.git"
-	},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:donbonifacio/midgard.js.git"
+  },
 
-	"dependencies": {
-		"underscore": "1.4.2",
-		"bricks": ">=1.1.2",
+  "dependencies": {
+    "underscore": "1.4.2",
+    "bricks": ">=1.1.2",
     "cli-color": ">=0.2.1"
-	}
+  }
 
 }
