@@ -12,7 +12,12 @@
   }
 
   exports.trace = function(context) {
+    context.include('midgard#traceEnv');
     context.include('midgard#traceRequest');
+    context.render();
+  }
+
+  exports.traceEnv = function(context) {
     context.render();
   }
 
