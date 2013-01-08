@@ -1,0 +1,23 @@
+<h2>Pipeline</h2>
+<table>
+  <tr>
+    <th>Step</th>
+    <th>handler</th>
+    <th>controller#action</th>
+  </tr>
+  <% _.each(context.pipelineLog, function(log) {  %>
+    <tr>
+      <td><%= log.step  %></td>
+      <td><%= log.handler  %></td>
+      <td><%= log.controllerAction  %></td>
+    </tr>
+  <% }); %>
+  <% _.each(context.renderQueue, function(info) {  %>
+    <tr>
+      <td>render</td>
+      <td><%= info.handler.name %></td>
+      <td><%= info.controllerName%>#<%= info.actionName %></td>
+    </tr>
+  <% }); %>
+</table>
+

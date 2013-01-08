@@ -9,20 +9,25 @@
   exports.info = function(context) {
     context.include('midgard#trace');
     context.render();
-  }
+  };
 
   exports.trace = function(context) {
     context.include('midgard#traceEnv');
     context.include('midgard#traceRequest');
+    context.include('midgard#tracePipeline');
     context.render();
-  }
+  };
 
   exports.traceEnv = function(context) {
     context.render();
-  }
+  };
 
   exports.traceRequest = function(context) {
     context.render();
-  }
+  };
+
+  exports.tracePipeline = function(context) {
+    context.render();
+  };
 
 })();
