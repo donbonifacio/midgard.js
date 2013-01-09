@@ -1,3 +1,17 @@
-<%= context.partial('midgard#traceEnv') %>
-<%= context.partial('midgard#traceRequest') %>
-<%= context.partial('midgard#tracePipeline') %>
+<style type="text/css">
+
+  div#midgardTracePanel table tr th {
+    background-color: #000;
+    color: #FFF;
+    padding:10px 20px;
+  }
+  div#midgardTracePanel table tr td {
+    background-color: #DDD;
+    padding:10px 20px;
+  }
+</style>
+<div id="midgardTracePanel">
+  <%= context.partial('midgard#traceEnv') %>
+  <%= context.partial('midgard#traceRequest') %>
+  <%= context.partial('midgard#tracePipeline') %>
+</div>
