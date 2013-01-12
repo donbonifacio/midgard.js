@@ -1,2 +1,2 @@
 var midgard = require('./../lib/midgard.js');
-midgard.start(3000);
+midgard.start(process.env.PORT || 3000);
