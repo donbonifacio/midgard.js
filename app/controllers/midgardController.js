@@ -1,5 +1,6 @@
 (function midgardController() {
 
+  var midgardController = exports;
   exports.layout = "midgard#master";
 
   exports.master = function master(context) {
@@ -12,10 +13,15 @@
   };
 
   exports.trace = function(context) {
+    context.dataHandler(midgardController.fetchData);
     context.include('midgard#traceEnv');
     context.include('midgard#traceRequest');
     context.include('midgard#tracePipeline');
     context.render();
+  };
+
+  exports.fetchData = function fetchData(context, next) {
+    next(context);
   };
 
   exports.traceEnv = function(context) {
