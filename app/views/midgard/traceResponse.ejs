@@ -1,0 +1,15 @@
+<h2>Response</h2>
+<table>
+  <tr>
+    <th>Param</th>
+    <th>Data</th>
+  </tr>
+  <tr>
+    <td>Status Code</td>
+    <td><%= context.httpStatusCode %></td>
+  </tr>
+  <tr>
+    <td>Headers</td>
+    <td><%= JSON.stringify(context.httpHeaders) %></td>
+  </tr>
+</table>
