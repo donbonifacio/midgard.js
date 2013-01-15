@@ -7,6 +7,10 @@
     context.render();
   };
 
+  exports.index = function(context) {
+    context.redirectTo('/midgard.info');
+  };
+
   exports.info = function(context) {
     context.include('midgard#trace');
     context.render();
