@@ -17,7 +17,6 @@
   };
 
   exports.trace = function(context) {
-    context.dataHandler(midgardController.fetchData);
     context.include('midgard#traceEnv');
     context.include('midgard#traceRequest');
     context.include('midgard#traceResponse');
