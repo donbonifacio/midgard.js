@@ -2,7 +2,7 @@
   "author": "Pedro Santos <donbonifacio@gmail.com>",
   "name": "midgard.js",
   "description": "Utility web framework",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "https://github.com/donbonifacio/midgard.js",
   "preferGlobal": "false",
   "main" : "./lib/midgard.js",
