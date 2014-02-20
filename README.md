@@ -1,7 +1,7 @@
 midgard.js
 ==========
 
-[![Build Status](https://secure.travis-ci.org/donbonifacio/midgard.js.png?branch=master)](https://travis-ci.org/donbonifacio/midgard.js)
+[![Build Status](https://secure.travis-ci.org/donbonifacio/midgard.js.png?branch=master)](https://travis-ci.org/donbonifacio/midgard.js) [![Code Climate](https://codeclimate.com/github/donbonifacio/midgard.js.png)](https://codeclimate.com/github/donbonifacio/midgard.js)
 
 Midgard.js is a prof of concept for a pipelined MVC framework for Node.js. You can see the default info page at 
 [midgard.heroku.com](http://midgard.herokuapp.com). It supports ejs views, layouts, partials and i18n. You can see
